@@ -10,9 +10,10 @@
  - install nvm https://www.liquidweb.com/kb/how-to-install-nvm-node-version-manager-for-node-js-on-ubuntu-12-04-lts/
  - install dependencies for msgpack  `sudo apt-get install gcc` and `sudo apt-get install build-essential`
  - install `zsh` https://blog.nillsf.com/index.php/2020/02/17/setting-up-wsl2-windows-terminal-and-oh-my-zsh/
- - install venv `python3 -m venv /path/to/new/virtual/environment`
+ -  install venv` sudo apt install python3.8-venv`
  - create venv folder `~/dev/venv`
- - set venv enviroment `source ~/dev/venv`
+ - set folder `python3 -m venv /path/to/new/virtual/environment`
+ - activate venv enviroment `source ~/dev/venv`
  - install wheel `pip install wheel`
  - install python3 dev `sudo apt install python3-dev`
  - install hkube's wrapper `pip install hkube-python-wrapper` 
