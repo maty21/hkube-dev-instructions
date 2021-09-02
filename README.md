@@ -10,6 +10,12 @@
  - install nvm https://www.liquidweb.com/kb/how-to-install-nvm-node-version-manager-for-node-js-on-ubuntu-12-04-lts/
  - install dependencies for msgpack  `sudo apt-get install gcc` and `sudo apt-get install build-essential`
  - install `zsh` https://blog.nillsf.com/index.php/2020/02/17/setting-up-wsl2-windows-terminal-and-oh-my-zsh/
+ - install venv `python3 -m venv /path/to/new/virtual/environment`
+ - create venv folder `~/dev/venv`
+ - set venv enviroment `source ~/dev/venv`
+ - install wheel `pip install wheel`
+ - install python3 dev `sudo apt install python3-dev`
+ - install hkube's wrapper `pip install hkube-python-wrapper` 
 
 ## install hkube
  - create `dev` folder
@@ -22,7 +28,7 @@
  - clone this repo 
  - create folder `~/.kube/` and copy the `config file` from this repo to the flolder 
  - create folder `~/dev/algorithms` and copy `alg1.py` from this repo to the flolder 
- - copy the `dockers` folder to `~/dev/~
+ - copy the `dockers` folder to `~/dev/~`
 
 ## running hkunbe
  - run dockers `cd ~/dev` then run `hkube-docker.sh`
