@@ -5,8 +5,8 @@
 
  - for running on windows we have to install wsl2 
  - install ubuntu wsl from the store https://docs.microsoft.com/en-us/windows/wsl/install-win10
- - also config docker to run with wsl2 configuration https://docs.docker.com/desktop/windows/wsl/
- - also install windows terminal from the store 
+ - config docker to run with wsl2 configuration https://docs.docker.com/desktop/windows/wsl/
+ - install windows terminal from the store 
  - install nvm https://www.liquidweb.com/kb/how-to-install-nvm-node-version-manager-for-node-js-on-ubuntu-12-04-lts/
  - install dependencies for msgpack  `sudo apt-get install gcc` and `sudo apt-get install build-essential`
  - install `zsh` https://blog.nillsf.com/index.php/2020/02/17/setting-up-wsl2-windows-terminal-and-oh-my-zsh/
