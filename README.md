@@ -38,7 +38,7 @@
  - pipeline driver queue `cd ~/dev/hkube/core/pipeline-driver-queue` run  `npm start`
  - algorithm operator `cd ~/dev/hkube/core/algorithm-operator` run  `DEV_MODE=true npm start`
  - algoritm-queue `cd ~/dev/hkube/core/algorithm-queue` run  `QUEUE_ID="foo-bar-zuzu"  npm start`
- - worker   `cd ~/dev/hkube/core/worker` run  ` ./runWithRandoPort.sh "green-alg" "python3 /home/{userName}/dev/alg1.py"` 
+ - worker   `source {venvfolder}; cd ~/dev/hkube/core/worker` run  ` ./runWithRandoPort.sh "green-alg" "python3 /home/{userName}/dev/alg1.py"` 
  - monitor server `cd ~/dev/hkube/monitor-server` run  `npm start`(in windows for wsl since wslhost use port 5000) run `HEALTHCHECK_PORT=5002 npm start`
  - dashboard `cd ~/dev/hkube/simulator` run  `npm start`
 
